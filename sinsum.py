@@ -1,10 +1,10 @@
-import math
+from math import pi, sin
 sum = 0
 i = 1
-n = 1
+n = 2
 while(n < 100):
 	while(i <= n):
-		sum += (math.pi/n)*math.sin(math.pi/n*i)
+		sum += (pi/n)*sin(pi/n*i)
 		i += 1
 	print(sum)
 	i = 1
